@@ -1,6 +1,4 @@
-# ssurgo_extraction
-This script is to extract mukey, texture, soilname, depth, sand, slit, clay, ksat,porosity, fc, and awc.
-Some mukeys' may be seriously missing data, resulting in NA's in the outputs for those missing data mukeys'
-
-
+# RHESSys5.20.EastForest
+This is a branch of RHESSys based on 5.20 with fixes on C:N, daily calculations, daily routing, and nitrogen processes.
+This RHESSys is designed and tested for the US southeast forested catchments. 
 
