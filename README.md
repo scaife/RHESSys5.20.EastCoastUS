@@ -13,4 +13,5 @@ Jan13 2019 version
 - excessive cpool/npool goes to DOC/DON
 - first version of SAT_solutes code implemention
 - actionRiparian bug fixed
+- sun angle and aspect angle fixed 
 - tested in Coweeta WS18 diversed canopy and local averaged canopy models
