@@ -4,7 +4,8 @@ Jan13 2019 version
 - flowtable actionCodes
   - gw_flag & gwtoriparian_flag & actionRIPARIAN
   - gw_flag & actionGWDRAIN
-  - grassIrrigation_flag & actionIRRIGRATION
+  - grassIrrigation_flag & actionIRRIGRATION & landuse.def [amount] (during growth season only; water stress adjustment)
+  - fertilizer_flag & actionFERTILIZE & landuse.def [amount and freq] (during growth season only)
   - sewer_flag & actionSEWER
   - actionPIPEDRAIN 
 - corrected cpool / npool dynamics in vegetation
