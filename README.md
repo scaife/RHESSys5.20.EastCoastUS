@@ -1,5 +1,5 @@
 # RHESSys5.20.EastForest
-Jan13 2019 version
+Feb27 2019 version
 - dynamic subsurface flow direction based on runtime water table elevation
 - flowtable actionCodes
   - gw_flag & gwtoriparian_flag & actionRIPARIAN
