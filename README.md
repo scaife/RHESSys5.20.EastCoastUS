@@ -8,7 +8,7 @@ Feb27 2019 version
   - fertilizer_flag & actionFERTILIZE & landuse.def [amount (kgN/m2/mo) and freq (30 days)] (during growth season only)
   - sewer_flag & actionSEWER
   - actionPIPEDRAIN 
-- new flag "-readinWFdoc_flag" when reading in worldfiles that has hillslope.gwDOC, hillslope.gwDON, patch.soil.DOC, and patch.soil.DON; In the latest model, these DOC related state variables are written out to the worldfile when perform "output_current_state" in the tecfile. Please insect this flag (-readinWFdoc_flag) in the command line when reading in the "output_current_state" worldfiles.
+- new flag "-readinWFdoc_flag" when reading in worldfiles that has hillslope.gwDOC, hillslope.gwDON, patch.soil.DOC, and patch.soil.DON; In the latest model, these DOC related state variables are written out to the worldfile when perform "output_current_state" in the tecfile. Please insect this flag (-readinWFdoc_flag) in the command line when reading in the worldfiles that is created by "output_current_state".
 - corrected cpool / npool dynamics in vegetation
 - new metric to evaluate annual vegetation respout: GPP + cpool - Re 
 - excessive cpool/npool goes to DOC/DON
